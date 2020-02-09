@@ -1,0 +1,470 @@
+
+html, body, div, span, applet, object, iframe,
+ p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption,  header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+font-family: 'Montserrat', sans-serif;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+
+
+}
+.body {
+	color: white;
+
+	position: relative;
+}
+
+.container{
+	margin: 0px auto;
+	width: 100%;
+
+}
+.header {
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight: normal;
+	margin: 0px auto;
+	background_color: ;
+	height: auto;
+  }
+.nav_bar {
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight: normal;
+	max-width: 100%;
+	background-color: ;
+	margin: 0 auto;
+	position: relative;
+   height: 60px;
+   
+   background-color: #373238;
+
+}
+.nav_bar ul{
+	padding: 0;
+	background-color: none;
+	height: 60px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	max-width: 1300px;
+	
+}
+.nav_bar ul li {
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	float: left;
+	width: calc(100%/6);
+	height: 60px;
+	background-color: none;
+	text-align: center;
+	margin: 0 auto;
+	
+	}
+ 
+
+.nav_bar ul li a{
+   text-decoration: none;
+	display: inline-block;
+	color: #e2e2e2;
+	max-height: 60px; 
+	border-left:1px solid #e2e2e2 ;
+	width: 100%;
+	margin-top: 10%;
+	
+}
+.nav_bar ul li:first-child,
+.nav_bar ul li a:first-child
+{    border: ; 
+       
+}
+
+.nav_bar ul li a:hover {
+    color: #d0aa8c;
+    }
+
+
+.content_top{
+
+	background-color: none;
+   height: 114px;
+   max-width: 1170px;
+	position: relative;
+	margin: 0 auto;
+	padding: 0px;
+}
+.top_line{
+	display: block;
+	height:  27px;
+	width: 1170px;
+	border-bottom: 1px solid black;
+	margin: 0 auto;
+}
+.contacts{
+	display: block;
+	
+	float: left;
+	
+}
+.contact{
+	width: 100px;
+	float: left;
+	height: 30px;
+	display: block;	
+
+}
+
+.buttons{
+	
+	
+	float: right;
+	display: block;
+}
+.button1{
+		width: auto;
+		height: 30px;
+		padding-left: 60px;
+		padding-right: 60px;
+		float: right;
+		margin: 0 auto;
+		padding-top: 10px;
+		border: 1px solid black;
+		text-align: center;
+      
+
+
+}
+
+.logo{
+	padding-top: 20px;	
+	text-align: center;
+}
+
+
+
+.content_menu{
+	font-family: 'Montserrat ', sans-serif;
+	font-weight: normal;
+
+	padding-top: 10px;
+	display: block;	
+	
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	height: 50px;
+	
+
+}
+.content_menu hr{
+	width: 100%;
+
+
+
+
+}
+	.content_menu a{
+		color: #332f36;
+		padding-left: 10px;
+		padding-right: 10px;
+		border-left: 1px solid black;
+	text-decoration: none;
+	}
+	.content_menu a:hover{
+		border-left: 1px solid #d0aa8c;
+		color: #d0aa8c;
+	}
+	.content_menu a:first-child{
+		border-left: none;
+	}
+
+	.main_info{
+	text-transform: uppercase;
+
+}
+	.main_info p{
+   font-family: 'Monterrat', sans-serif;
+	text-transform: none;
+	max-width: 60%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+.main{
+	height: 100%;
+	width: 1170px;
+	margin: 0 auto;
+
+	text-align: center;
+}
+.
+
+
+
+.item_content img{
+	width: 100%;
+		height: auto;
+	text-align: center;
+}
+
+
+
+
+
+
+.main_info h1{
+		font-family: 'Myriad Pro', sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	
+}
+
+
+.main_info h3{
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight: normal;
+}
+
+
+.item_content h2{
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	
+}
+.item_content hr{
+	color: #d0aa8c;
+	width: 90px;
+}
+
+.item_content p{
+	padding-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+.item_button{
+	margin: 0 auto;
+	text-transform: uppercase;
+	border: 1px solid black;
+	width: 274px;
+	height: 32px;
+	padding-top: 15px;
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight: normal;
+
+}
+.content_blocs{
+	padding-bottom: 20px;
+
+}
+
+
+.footer{
+
+background-image: url(img/footer.png);
+width: 1170px;
+
+
+
+}
+
+
+.footer_info{
+	
+	height: 340px;
+	text-decoration: none;
+	text-align: left;
+}
+.column{
+
+	display: block;
+	text-decoration: none;
+	float: left ;
+	width: 25%;
+	height: 245px;
+	
+	}
+	
+.content{
+		display: block;
+		text-align: center;
+		height: 100%;
+		margin: 0 auto;
+		width: 75%;
+		float: right;
+		margin-left:
+		
+
+	}
+	.content p{
+		font-family: 'Myriad Pro', sans-serif;
+	font-weight: normal;
+
+		color: white;
+
+	}
+
+
+	
+.column ul{
+	display: block;
+	float: right;
+   width: 100%;
+   padding-top: 35px;
+   margin-left: -40px;
+   font-family: 'Myriad Pro', sans-serif;
+	font-weight: normal;
+
+	
+}
+
+.column ul li{
+   width: 100%;
+	display: block;
+	list-style: none;
+	text-align: left;
+	border-right: 1px solid white;
+	
+   
+}
+.column p{
+	display: block;
+	padding-top: 40px; 
+	text-align: left;
+	padding-bottom: 10px;
+	}
+
+
+.column hr {
+	display: block;
+	width: 65px;
+	float: left;
+	color: #d0aa8c;
+	
+	
+}
+.column a {
+	color: #a3a3a3;
+	text-decoration: none;
+	
+}
+.column  a:hover {
+	color: #d0aa8c;
+}
+.for_border{
+	
+	
+	height: 75%;
+	
+
+
+}
+
+
+
+.content1{
+	display: block;
+		text-align: center;
+		height: 100%;
+		
+		width: 75%;
+		float: right;
+		margin-top: ;
+
+
+}
+
+
+.content1 p{
+	display: block;
+	padding: 25px;
+	text-align: center;
+	padding-bottom: 0px;
+	color: #e5e5e5;
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight: normal;
+	
+	}
+
+.zakaz {
+	display: block;
+	margin-top: 25px;
+	
+}
+
+
+.content1 hr {
+	display: block;
+	width: 100%;
+	float: left;
+	margin-top: 3px;
+	color: #d0aa8c;
+	
+	
+}
+.sign{
+	height: 0px;
+	width: 75%;
+	text-align: right;
+	padding-top: 0px;
+}
+.sign ul {
+	padding: 0;
+	margin: 0; 
+	height: 100%;
+}
+.sign ul li p{
+	padding: 0;
+	margin: 0; 
+}
+
+
+.content1 ul {
+	display: block;
+	
+	border: none;
+	float: right;
+	
+}
+.content1 ul li {
+	border: none;
+	
+
+}
+.content1 ul li p{
+	display: block;
+	text-align: right;
+	padding: 0;
+}
+.social{
+	text-align: center;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: minmax(100px, auto) minmax(100px, auto) minmax(100px, auto);
+	grid-gap: 20px;
+   
+}
+.grid div {
+	background-color: none;
+}
